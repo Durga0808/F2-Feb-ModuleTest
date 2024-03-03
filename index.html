@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="signupForm" action="/">
+        <div class="input-control" id="emailContainer">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            placeholder="Example@email.com"
+            name="Email"
+            id="email"
+            required
+          />
+        </div>
+        <div class="input-control" id="passwordContainer">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            placeholder="Password"
+            name="Password"
+            id="password"
+            required
+          />
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
